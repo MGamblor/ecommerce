@@ -1,0 +1,168 @@
+/* ================ GENERAL ===============*/
+
+* {
+    outline: none;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* ================ NAV MOBILE ===============*/
+
+.title-bar {
+    background-color: #222;
+    height: 60px;
+    padding-top: 17px;
+}
+
+.off-canvas {
+    background-color: #222;
+}
+
+#mobile-menu {
+    padding: 10px;   
+}
+
+#mobile-menu li {
+    list-style: none;   
+}
+
+#mobile-menu a {
+    color: rgba(255,255,255,0.6);
+    font-weight: bold;
+    line-height: 3;
+}
+
+#mobile-menu a:hover {
+    color: rgba(255,255,255,0.8);
+}
+
+.js-off-canvas-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* ================ NAV DESKTOP ===============*/
+
+.nav-desktop {
+    background-color: #222;
+    height: 80px;
+    padding: 0px;
+}
+
+.site-logo {
+    color: white;
+    line-height: 80px;
+}
+
+.nav-desktop .menu-desktop {
+    line-height: 60px;
+    background-color: transparent;
+}
+
+.menu > li > a {
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+}
+
+.menu > li > a:hover {
+    background-color: rgba(255,255,255, 0.1);
+}
+
+/* ================ MAIN SECTION===============*/
+
+.main {
+    padding: 50px 0px;
+    background-image: url("../img/japanese_sayagata.png");
+}
+
+.error {
+    color: red;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], 
+[type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], 
+[type='time'], [type='url'], [type='color'], textarea {
+  margin: 1rem 0 0;
+}
+
+[type='submit'] {
+  margin: 1rem 0 1rem 0;
+}
+
+img {
+    max-width: 85%;
+    margin-bottom: 15px;
+}
+
+#timer {
+    margin-bottom: 25px;
+}
+
+.item_form {
+    background-color: white;
+    padding-top: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 15px;
+}
+
+.signed-in {
+    padding: 60px;
+    text-align: center;
+}
+
+/* ================ FOOTER ===============*/
+
+footer {
+    background-color: #222;
+    padding: 80px 0px;
+}
+
+footer h4 {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.3em;
+}
+
+footer hr {
+    border-color: rgba(255,255,255, 0.1);
+    margin: 10px 0;
+}
+
+footer a {
+    display: block;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9em;
+}
+
+footer a span {
+    font-weight: bold;
+    color: rgba(255,255,255,0.3);
+}
+
+footer a:hover {
+    color: rgba(255,255,255,0.8);
+}
+
+/* ================ FOOTER ===============*/
+
+@media (max-width: 639px) {
+    .nav-desktop {
+        display: none;
+    }
+    .foot {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 875px) {
+    .hero h1, .hero p {
+        width: 100%;
+    }
+}
